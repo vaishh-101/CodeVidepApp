@@ -1,0 +1,12 @@
+.my-form{
+    
+   background-color:#ffe5cc ;
+   padding: 20px;
+   margin-top: 30px;
+   border-radius: 10px;
+   max-width: 600px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px double black;
+}

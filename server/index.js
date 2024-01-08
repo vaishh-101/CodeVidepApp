@@ -112,6 +112,6 @@ app.post("/user/login", async(req, res) =>{
 }
 
 
-app.listen(5000, () =>{
-    console.log('Server is running on port 5000');
+app.listen(1000, () =>{
+    console.log('Server is running on port 1000');
 });

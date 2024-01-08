@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const PORT = process.env.PORT || 5000 
+const PORT = process.env.PORT || 1000 
 async function connectToDB(){
     const connection = await mongoose.connect(process.env.MONGO_URI)
     if(connection){
